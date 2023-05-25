@@ -1,0 +1,48 @@
+.blue i{
+  margin-right:5px;
+}
+
+.blue:hover {
+  background: #FE980F;
+  color: #FFFFFF;
+}
+.product-overlay .blue {
+  background:#fff;
+  border: 0 none;
+  border-radius: 0;
+  color: #FE980F;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+.product-overlay .blue:hover {
+  background:#fff;
+  color: blue;
+}
+
+.blue {
+  background:#F5F5ED;
+  border: 1;
+  border-radius: 0;
+  color: #696763;
+  font-family: 'Roboto', sans-serif;
+  /*font-size: 15px;*/
+  /*margin-bottom: 25px;*/
+}
+
+.blue:hover {
+  background: blue;
+  border: 0 none;
+  border-radius: 0;
+  color: #FFFFFF;
+}
+
+.artikels{
+  border: 1px solid #F7F7F0;
+  overflow: hidden;
+  padding-bottom: 60px;
+  padding-left: 60px;
+  padding-top: 60px;
+  position: relative;
+}

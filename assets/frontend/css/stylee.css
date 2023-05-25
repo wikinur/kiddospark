@@ -1,0 +1,267 @@
+/*
+    Theme Name: Bikin
+    Theme URL: https://bootstrapmade.com/bikin-free-simple-landing-page-template/
+    Author: BootstrapMade
+    Author URL: https://bootstrapmade.com
+*/
+
+/* ==== Google font ==== */
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+@import url('font-awesome.css');
+
+/* ==== overwrite bootstrap standard ==== */
+@import url('overwrite.css');
+@import url('animate.css');
+
+/*************************
+*******Typography******
+**************************/
+body {
+  background: #fff;
+  font-family:'Roboto', Arial, sans-serif;
+  color:#333;
+  line-height:1.6em;
+  overflow-x:hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight:500;
+    font-family:'Roboto';
+	color:#000;
+}
+
+h1{
+  font-size: 36px;
+  color:#fff;
+}
+
+h2{
+  font-size:20px;
+}
+
+h3{
+  font-size: 16px;
+  color: #787878;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+h4{
+  font-size: 16px;
+}
+
+a {
+  color: #0BA9F9;
+  -webkit-transition: color 300ms, background-color 300ms;
+  -moz-transition: color 300ms, background-color 300ms;
+  -o-transition:  color 300ms, background-color 300ms;
+  transition:  color 300ms, background-color 300ms;
+}
+
+a:hover, a:focus {
+  color:rgba(0,0,0,.85);
+  text-decoration:none;
+}
+
+hr {
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #fff;
+}
+
+/*************************
+*******Slider******
+**************************/
+.slider {
+	position: relative;
+	padding-top:70px;
+}
+
+.slider img {
+    width: 100%;
+}
+
+#carousel-slider {
+  position: relative;
+}
+
+#carousel-slider .carousel-indicators {
+  bottom: -25px;
+}
+
+#carousel-slider .carousel-indicators li {
+  border: 1px solid #ffbd20;
+}
+
+#carousel-slider a i {
+  border: 1px solid #fff;
+  border-radius:50%;
+  font-size: 30px;
+  height: 50px;
+  padding: 8px;
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  color:#fff;
+}
+
+#carousel-slider a i:hover {
+  background:#0BA9F9;
+  color:#fff;
+  border: 1px solid #0BA9F9;
+}
+
+#carousel-slider
+.carousel-control {
+  width:inherit;
+}
+
+#carousel-slider .carousel-control.left i {
+  left:40px;
+  top: calc(50% - 25px);
+}
+
+#carousel-slider .carousel-control.right i {
+  right: 40px;
+  top: calc(50% - 25px);
+}
+
+#carousel-slider
+.carousel-control.left,
+#carousel-slider
+.carousel-control.right {
+  background: none;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  top: calc(50% - 150px);
+  font-size:40px;
+  left: 15%;
+  z-index: 10;
+  padding-bottom: 0px;
+  color: #fff;
+  text-align: center;
+}
+
+.carousel-caption  h2 {
+	font-size:60px;
+	color: #0BA9F9;
+}
+
+.carousel-caption  h2 span {
+	font-size:60px;
+	color: #fff;
+}
+
+
+.carousel-caption  p {
+  font-size:30px;
+  margin-top:30px;
+  color:#fff;
+}
+
+
+.carousel-inner .form-inline .form-group button[type="livedemo"]{
+	padding:20px 60px;
+	font-size:25px;
+	background:#0BA9F9;
+	color:#fff;
+}
+
+.carousel-inner .form-inline .form-group button[type="livedemo"]:hover {
+	color:#0BA9F9;
+	background:#fff;
+  transition:  color 300ms, background-color 300ms;
+}
+
+.carousel-inner .form-inline .form-group button[type="getnow"]{
+	padding:20px 60px;
+	font-size:25px;
+	background:#fff;
+	color:#0BA9F9;
+}
+
+.carousel-inner .form-inline .form-group button[type="getnow"]:hover {
+	color:#fff;
+	background:#0BA9F9;
+  transition:  color 300ms, background-color 300ms;
+}
+
+@media (max-width: 767px) {
+
+  .carousel-caption  h2, .carousel-caption  h2 span {
+    font-size: 36px;
+  }
+
+  .carousel-caption  p {
+    font-size: 24px;
+    margin-top: 24px;
+  }
+
+  .carousel-inner .form-inline .form-group button[type="livedemo"], .carousel-inner .form-inline .form-group button[type="getnow"]{
+  	padding:10px 30px;
+  	font-size:18px;
+  }
+
+  .carousel-inner .form-inline {
+    margin-bottom: 0;
+  }
+
+  .carousel-inner .form-group {
+    display: inline;
+  }
+
+  #carousel-slider .carousel-indicators {
+    bottom: 0;
+  }
+}
+
+@media (max-width: 575px) {
+
+  .carousel-caption {
+    top: -30px;
+  }
+
+  .carousel-caption  h2, .carousel-caption  h2 span {
+    font-size: 24px;
+  }
+
+  .carousel-caption  p {
+    font-size: 18px;
+    margin-top: 18px;
+  }
+
+  .carousel-inner .form-inline .form-group button[type="livedemo"], .carousel-inner .form-inline .form-group button[type="getnow"]{
+  	padding:5px 20px;
+  	font-size:14px;
+  }
+
+  .carousel-inner .form-inline {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .carousel-inner .form-group {
+    display: inline;
+    padding-top: 0;
+  }
+
+  #carousel-slider .carousel-indicators {
+    display: none !important;
+  }
+
+  .carousel-inner .btn-primary {
+    margin-top: 10px;
+  }
+}
+.video-inner{
+  position:relative;
+  width: 97.3%;
+}
